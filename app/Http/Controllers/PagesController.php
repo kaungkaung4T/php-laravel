@@ -11,4 +11,9 @@ class PagesController extends Controller
         $name = "kaungkaungkaung";
         return view("template.work", compact("name"));
     }
+
+    public function school() {
+        $name = array("kaungkaung", "susu", "wefijiowefj", "eeeeee");
+        return view("template.school", compact("name"));
+    }
 }

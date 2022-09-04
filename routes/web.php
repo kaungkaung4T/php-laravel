@@ -27,3 +27,5 @@ Route::get("/student", function(){
 
 Route::get("/about", [PagesController::class, "about"]);
 // Route::get("/about", "App\Http\Controllers\PagesController@about");
+
+Route::get("/school", [PagesController::class, "school"]);
