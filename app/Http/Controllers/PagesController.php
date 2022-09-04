@@ -8,6 +8,7 @@ class PagesController extends Controller
 {
 
     public function about() {
-        return view("template.work");
+        $name = "kaungkaungkaung";
+        return view("template.work", compact("name"));
     }
 }
