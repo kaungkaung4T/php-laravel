@@ -8,6 +8,6 @@ class PagesController extends Controller
 {
 
     public function about() {
-        return "wjefowefjwoefijwefoijwoefweiof";
+        return view("template.work");
     }
 }
